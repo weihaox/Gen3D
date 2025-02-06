@@ -26,7 +26,7 @@
     <a href='https://arxiv.org/abs/2210.14267'>
       <img src='https://img.shields.io/badge/Paper-Paper-green?style=flat&logo=arxiv&logoColor=green' alt='arxiv Paper'>
     </a>
-    <a href='https://weihaox.github.io/3D-aware-Gen/' style='padding-left: 0.5rem;'>
+    <a href='https://weihaox.github.io/Gen3D/' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
     </a>
     <a href='https://dl.acm.org/doi/10.1145/3626193' style='padding-left: 0.5rem;'>
@@ -53,7 +53,7 @@ Survey paper
 
 ### 3D Control Latent Directions
 
-For 3D control over diffusion models simiar to [GAN](https://github.com/weihaox/GAN-Inversion#gan-latent-space-editing), please refer to [semantic manipulation in diffusion latent spaces](https://github.com/weihaox/GAN-Inversion#semantic-editing-in-diffusion-latent-spaces).
+For 3D control over diffusion models simiar to [GAN](https://github.com/weihaox/GAN-Inversion#gan-latent-space-editing), please refer to [diffusion latent editing](https://github.com/weihaox/GAN-Inversion#semantic-editing-in-diffusion-latent-spaces).
 
 * **SeFa: Closed-Form Factorization of Latent Semantics in GANs.**<br>
 *Yujun Shen, Bolei Zhou.*<br>
@@ -279,6 +279,14 @@ ICCV 2021. [[Paper](https://arxiv.org/abs/2104.07659)] [[Project](https://nvlabs
 
 ## 3D-aware Diffusion Models for a Single Image Category
 
+* **Generating Images with 3D Annotations Using Diffusion Models.**<br>
+*[Wufei Ma](https://wufeim.github.io/), [Qihao Liu](https://qihao067.github.io/), [Jiahao Wang](https://jiahaoplus.github.io/), Angtian Wang, Xiaoding Yuan, Yi Zhang, Zihao Xiao, Guofeng Zhang, Beijia Lu, Ruxiao Duan, Yongrui Qi, [Adam Kortylewski](https://adamkortylewski.com/), [Yaoyao Liu](https://www.cs.jhu.edu/~yyliu/), [Alan Yuille](https://www.cs.jhu.edu/~ayuille/).*<br>
+ICLR 2024. [[Paper](https://arxiv.org/abs/2306.08103)] [[Project](https://ccvl.jhu.edu/3D-DST/)] [[Code](https://github.com/wufeim/DST3D)]
+
+* **GeNVS: Generative Novel View Synthesis with 3D-Aware Diffusion Models.**<br>
+*Eric R. Chan, Koki Nagano, Matthew A. Chan, Alexander W. Bergman, Jeong Joon Park, Axel Levy, Miika Aittala, Shalini De Mello, Tero Karras, Gordon Wetzstein.*<br> 
+ICCV 2023. [[Paper](https://arxiv.org/abs/2304.02602)] [[Project](https://nvlabs.github.io/genvs/)] [[Code](https://github.com/NVlabs/genvs)]
+
 * **Single-Stage Diffusion NeRF: A Unified Approach to 3D Generation and Reconstruction.**<br>
 *Hansheng Chen, Jiatao Gu, Anpei Chen, Wei Tian, Zhuowen Tu, Lingjie Liu, Hao Su.*<br> 
 ICCV 2023. [[PDF](http://arxiv.org/abs/2304.06714)] [[Project](https://lakonik.github.io/ssdnerf)] [[Code](https://github.com/Lakonik/SSDNeRF)]
@@ -342,14 +350,6 @@ NeurIPS 2022. [[Paper](https://arxiv.org/abs/2212.01381)] [[Project](https://git
 * **Learning a Diffusion Prior for NeRFs.**<br>
 *Guandao Yang, Abhijit Kundu, Leonidas J. Guibas, Jonathan T. Barron, Ben Poole.*<br> 
 arxiv 2023. [[Paper](https://arxiv.org/abs/2304.14473)] 
-
-* **Adding 3D Geometry Control to Diffusion Models.**<br>
-*[Wufei Ma](https://wufeim.github.io/), [Qihao Liu](https://qihao067.github.io/), [Jiahao Wang](https://jiahaoplus.github.io/), Angtian Wang, [Yaoyao Liu](https://www.cs.jhu.edu/~yyliu/), [Adam Kortylewski](https://adamkortylewski.com/), [Alan Yuille](https://www.cs.jhu.edu/~ayuille/).*<br>
-arxiv 2023. [[Paper](https://arxiv.org/abs/2306.08103)]
-
-* **Generative Novel View Synthesis with 3D-Aware Diffusion Models.**<br>
-*Eric R. Chan, Koki Nagano, Matthew A. Chan, Alexander W. Bergman, Jeong Joon Park, Axel Levy, Miika Aittala, Shalini De Mello, Tero Karras, Gordon Wetzstein.*<br> 
-arxiv 2023. [[Paper](https://arxiv.org/abs/2304.02602)] [[Project](https://nvlabs.github.io/genvs/)] [[Code](https://github.com/NVlabs/genvs)]
 
 * **3D-LDM: Neural Implicit 3D Shape Generation with Latent Diffusion Models.**<br>
 *Gimin Nam, Mariem Khlifi, Andrew Rodriguez, Alberto Tono, Linqi Zhou, Paul Guerrero.*<br> 
